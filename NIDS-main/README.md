@@ -1,227 +1,118 @@
-# 🛡️ AI-Powered Explainable Intrusion Detection System With Cross-Domain Adaptability
+# AI-Powered Explainable Intrusion Detection System with Cross-Domain Adaptability
 
-An advanced AI-driven Intrusion Detection System (IDS) designed to detect, explain, and mitigate cyber threats across IoT, cloud, and enterprise environments using Machine Learning, Deep Learning, Explainable AI (XAI), and adversarial defense mechanisms.
+## 📖 Project Overview
 
----
+This project is an AI-powered Network Intrusion Detection System (NIDS) that detects cyber attacks using Machine Learning and Explainable AI (XAI). It classifies network traffic as **Normal** or **Attack** and explains the prediction using SHAP for better transparency.
 
-## 📌 Overview
-
-Traditional Intrusion Detection Systems mainly rely on static signature-based detection methods that fail to identify unknown or evolving cyberattacks. This project introduces an intelligent and explainable IDS framework capable of:
-
-- Detecting known and zero-day attacks
-- Explaining prediction decisions using SHAP
-- Defending against adversarial attacks
-- Suggesting automated mitigation strategies
-- Supporting cross-domain adaptability across multiple datasets
-
-The system combines Machine Learning, Deep Learning, Explainable AI, and Flask-based deployment into a unified cybersecurity solution.
+The system is designed to improve security by providing accurate attack detection, explainable predictions, adversarial robustness, and cross-domain adaptability across multiple network datasets.
 
 ---
 
-# 🚀 Key Features
+## ✨ Features
 
-✅ Hybrid ML + DL Intrusion Detection  
-✅ Explainable AI using SHAP Visualization  
-✅ Cross-Domain Adaptability  
-✅ Adversarial Defense Mechanism  
-✅ Automated Mitigation Suggestions  
-✅ Flask Web Dashboard  
-✅ SQLite Database Integration  
-✅ Attack History & Filtering System  
-✅ Real-Time Prediction Interface  
-✅ Multi-Dataset Support
+- AI-based Intrusion Detection
+- Explainable AI using SHAP
+- Cross-Domain Adaptability
+- Adversarial Defense
+- Interactive Dashboard
+- Dataset Upload Support
+- Attack Classification
+- Prediction History
+- User Authentication
 
 ---
 
-# 🧠 Technologies Used
+## 🛠️ Tech Stack
 
-## Programming Language
-- Python
-
-## Machine Learning & Deep Learning
-- Scikit-learn
-- XGBoost
-- TensorFlow / Keras
-- Random Forest
-- CNN (Convolutional Neural Network)
-
-## Explainable AI
-- SHAP (SHapley Additive exPlanations)
-
-## Web Framework
-- Flask
-
-## Database
-- SQLite
-
-## Frontend
+### Frontend
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
+
+### Backend
+- Python
+- Flask
+
+### Machine Learning
+- XGBoost
+- CNN
+- SHAP
+
+### Database
+- SQLite
 
 ---
 
-# 📂 Supported Datasets
-
-The system is trained and evaluated on multiple benchmark cybersecurity datasets:
+## 📂 Datasets Used
 
 - CICIDS 2017
-- TON_IoT
-- IoT-23
-- NSL-KDD
 - UNSW-NB15
-
-These datasets cover a wide range of network traffic behaviors and attack categories.
-
----
-
-# 🏗️ System Architecture
-
-The project workflow consists of:
-
-1. Dataset Collection
-2. Data Preprocessing
-3. Feature Extraction & Selection
-4. ML & DL Model Training
-5. Intrusion Prediction
-6. SHAP Explainability Analysis
-7. Adversarial Defense
-8. Mitigation Recommendation
-9. Database Logging & Visualization
+- NSL-KDD
+- TON-IoT
+- IoT-23
 
 ---
 
-# ⚙️ Core Modules
-
-## 🔹 Data Preprocessing
-- Data Cleaning
-- Missing Value Handling
-- Label Encoding
-- Normalization
-
-## 🔹 Feature Selection
-- Correlation Analysis
-- Information Gain
-- Dimensionality Reduction
-
-## 🔹 Classification Models
-- XGBoost
-- Random Forest
-- CNN
-
-## 🔹 Explainability Layer
-The SHAP framework is used to explain model predictions by visualizing the contribution of each feature toward attack detection.
-
-## 🔹 Adversarial Defense
-The system integrates adversarial training and noise injection techniques to improve robustness against evasion and poisoning attacks.
-
-## 🔹 Mitigation Engine
-Automatically recommends security countermeasures such as:
-- IP Blocking
-- Traffic Filtering
-- Rate Limiting
-- Multi-Factor Authentication
-- SQL Injection Prevention
-
----
-
-# 📊 Performance
-
-The proposed IDS achieved:
-
-- High Detection Accuracy (>97%)
-- Reduced False Positives
-- Improved Cross-Domain Adaptability
-- Enhanced Model Transparency
-- Robustness Against Adversarial Attacks
-
----
-
-# 🖥️ Web Interface Features
+## 🚀 Project Modules
 
 - User Authentication
 - Dataset Upload
-- Intrusion Prediction
-- SHAP Visualization
-- Attack History
-- Attack Filtering
-- Dashboard Analytics
-- Mitigation Suggestions
+- Data Preprocessing
+- Feature Extraction
+- Model Prediction
+- Explainability using SHAP
+- Dashboard
+- Prediction History
 
 ---
 
-# 📁 Project Structure
+## 📊 Supported Attack Types
 
-```bash
-NIDS/
-│
-├── model_handlers/
-├── models/
-├── static/
-├── templates/
-├── app.py
-├── database.py
-├── final.csv
-├── NSL-KDD.csv
-├── UNSW-NB15.csv
-├── IoT-23.csv
-└── ton-iot.csv
-```
+- DoS
+- DDoS
+- Brute Force
+- Injection
+- Exploit
+- Backdoor
+- Benign
+- Normal Traffic
 
 ---
 
-# ▶️ Installation & Setup
-
-## 1️⃣ Clone Repository
+## ⚙️ Installation
 
 ```bash
-git clone https://github.com/sudeep-sah/NIDS.git
-```
+git clone https://github.com/SyedRazee/AI-Powered-Explainable-Intrusion-Detection-System-with-Cross-Domain-Adaptability.git
 
-## 2️⃣ Navigate to Project Folder
+cd AI-Powered-Explainable-Intrusion-Detection-System-with-Cross-Domain-Adaptability
 
-```bash
-cd NIDS
-```
-
-## 3️⃣ Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-## 4️⃣ Run Application
-
-```bash
 python app.py
 ```
 
 ---
 
-# 📌 Future Enhancements
+## 🎯 Future Improvements
 
-- Real-Time Packet Monitoring
+- Real-time Network Monitoring
 - Cloud Deployment
-- Federated Learning
-- Edge Computing Integration
-- Automated Threat Response
-- SDN Integration
-- Reinforcement Learning Based Mitigation
-
-
+- Docker Support
+- More Deep Learning Models
+- Performance Optimization
 
 ---
 
-# 📚 Research References
+## 👨‍💻 Author
 
-This project is inspired by modern research in:
-- Explainable AI
-- Adversarial Machine Learning
-- Network Intrusion Detection Systems
-- Cross-Domain Cybersecurity Frameworks
+**Syed Razee Ahmad**
+
+- GitHub: https://github.com/SyedRazee
+- LinkedIn: https://www.linkedin.com/in/syed-razee-ahmad/
 
 ---
 
-# 📜 License
+## ⭐ If you like this project
 
-This project is developed for educational and research purposes.
+Please give this repository a ⭐ on GitHub.
